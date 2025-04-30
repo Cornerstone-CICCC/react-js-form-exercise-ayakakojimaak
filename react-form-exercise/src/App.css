@@ -1,0 +1,81 @@
+#root {
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.card {
+	padding: 2em;
+}
+
+.read-the-docs {
+	color: #888;
+}
+
+form {
+	width: 80%;
+	max-width: 800px;
+	background-color: #fef6e4;
+	border: 2px solid #faedcd;
+	border-radius: 12px;
+	padding: 2rem;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin: 2rem auto;
+}
+
+label {
+	display: block;
+	font-size: 1rem;
+	font-weight: bold;
+	color: #6b705c;
+	margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="number"] {
+	width: 100%;
+	padding: 0.5rem;
+	border: 2px solid #faedcd;
+	border-radius: 8px;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+	margin-right: 0.5rem;
+}
+
+button {
+	background-color: #f4a261;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+	margin: 0.5rem;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #e76f51;
+}
+
+.output {
+	background-color: #faedcd;
+	border: 2px solid #f4a261;
+	border-radius: 8px;
+	padding: 1rem;
+	margin-top: 1rem;
+	color: #6b705c;
+	font-size: 1.2rem;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
